@@ -8,5 +8,5 @@ reading = int(input("reading: "))
 sum_ = maths+english+reading+history
 print("sum of maths, english, reading and history is ")
 percentage = (sum_/400)*100
-print(int = "percentage mark = ")
+print(end = "percentage mark = ")
 print(percentage)
