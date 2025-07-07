@@ -1,6 +1,6 @@
 class Bird:
 
-    def __init(self):
+    def __init__(self):
         print('bird is ready')
 
     def WhoIsThis(self):
