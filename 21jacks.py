@@ -14,8 +14,7 @@ play = input()
 
 if play =='y':
     print('Ok. You Chose To Play.')
-    print('here are your cards:')
-    
+
     print(f"The {rank} of {card}")
     print(f"The {rank} of {card}")
 
