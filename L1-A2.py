@@ -18,7 +18,7 @@ apple_image = pygame.transform.scale(
     (300,300)
 )
 
-apple.rect = apple_image.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 150))
+apple_rect = apple_image.get_rect(center=(SCREEN_WIDTH // 2, SCREEN_HEIGHT // 2 + 150))
 
 text = pygame.font.Font(None, 36).render('This is The Shiny Apple',True, pygame.Color('red'))
 
