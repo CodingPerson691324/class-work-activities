@@ -8,12 +8,12 @@ frame = Frame(master=root, height = 200, width = 360, bg="#d0efff")
 
 lbl1 = Label(text = 'full name : ', bg='#3895D3', fg='white', width = 12)
 lbl2 = Label(text = 'email id', bg = '#3895D3', fg = 'white', width = 12)
-lbl3 = Label(text = 'password', bg = '#3895D3', fg = 'white', width = 12)
+lbl3 = Label(text = 'DOB', bg = '#3895D3', fg = 'white', width = 12)
 
 name_entry = Entry()
 email_entry = Entry()
-pass_entry = Entry(show='*')
-
+pass_entry = Entry()
+pass_entry.insert(0, 'DD/MM/YYYY' )
 def display():
     name = name_entry.get()
     greet = 'hey ' +name
