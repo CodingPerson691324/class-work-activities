@@ -83,7 +83,7 @@ while running:
 
         if event.type == pygame.KEYUP:
             if event.key in [pygame.K_LEFT, pygame.K_RIGHT]:
-                playerX_change = 0
+                playerX_change = 0``
 
     if not game_over:
         playerX += playerX_change
